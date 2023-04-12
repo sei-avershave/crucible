@@ -1,0 +1,1014 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../blueprint/">
+      
+      
+        <link rel="next" href="../gallery/">
+      
+      <link rel="icon" href="../assets/img/crucible-icon-c-alpha.svg">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>CITE - Crucible Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Crucible Documentation - CITE" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="Noneassets/images/illustrations/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+  <!-- google-site-verification meta-tag -->
+  <meta name="google-site-verification" content="-Rj8YMCn9uu5IwOFdC-WfAzXp4ZOMJtYKxU40ZgcJIU" />
+
+<!-- Extra stylesheets -->
+<!--  <link
+    rel="stylesheet"
+    href="../assets/stylesheets/overrides.css"
+  />-->
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cite" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Crucible Documentation" class="md-header__button md-logo" aria-label="Crucible Documentation" data-md-component="logo">
+      
+  <img src="../assets/img/crucible-icon-c-alpha.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Crucible Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CITE
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../player/" class="md-tabs__link">
+      Player
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../caster/" class="md-tabs__link">
+      Caster
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../steamfitter/" class="md-tabs__link">
+      Steamfitter
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../alloy/" class="md-tabs__link">
+      Alloy
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../blueprint/" class="md-tabs__link">
+      Blueprint
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      CITE
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../gallery/" class="md-tabs__link">
+      Gallery
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Crucible Documentation" class="md-nav__button md-logo" aria-label="Crucible Documentation" data-md-component="logo">
+      
+  <img src="../assets/img/crucible-icon-c-alpha.svg" alt="logo">
+
+    </a>
+    Crucible Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../player/" class="md-nav__link">
+        Player
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caster/" class="md-nav__link">
+        Caster
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../steamfitter/" class="md-nav__link">
+        Steamfitter
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alloy/" class="md-nav__link">
+        Alloy
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blueprint/" class="md-nav__link">
+        Blueprint
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CITE
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        CITE
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-cite" class="md-nav__link">
+    What is CITE?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cite-permissions" class="md-nav__link">
+    CITE Permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administrator-guide" class="md-nav__link">
+    Administrator Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="Administrator Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluations" class="md-nav__link">
+    Evaluations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoring-models" class="md-nav__link">
+    Scoring Models
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    Actions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roles" class="md-nav__link">
+    Roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submissions" class="md-nav__link">
+    Submissions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-guide" class="md-nav__link">
+    User Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="User Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moves" class="md-nav__link">
+    Moves
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cite-dashboard" class="md-nav__link">
+    CITE Dashboard
+  </a>
+  
+    <nav class="md-nav" aria-label="CITE Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#active-incident-moves" class="md-nav__link">
+    Active Incident &amp; Moves
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#situation-description-date-time" class="md-nav__link">
+    Situation Description, Date &amp; Time
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions-to-consider" class="md-nav__link">
+    Actions to Consider
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roles_1" class="md-nav__link">
+    Roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#score-summary" class="md-nav__link">
+    Score Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dashboard-scoresheet-toggle" class="md-nav__link">
+    Dashboard &amp; Scoresheet Toggle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cite-scoresheet" class="md-nav__link">
+    CITE Scoresheet
+  </a>
+  
+    <nav class="md-nav" aria-label="CITE Scoresheet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#event-name" class="md-nav__link">
+    Event Name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displayed-move" class="md-nav__link">
+    Displayed Move
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoring-features" class="md-nav__link">
+    Scoring Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#score-summary_1" class="md-nav__link">
+    Score Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories-and-options" class="md-nav__link">
+    Categories and Options
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gallery/" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="cite"><strong>CITE</strong></h1>
+<p><em>Collaborative Incident Threat Evaluator</em></p>
+<h2 id="overview">Overview</h2>
+<h3 id="what-is-cite">What is CITE?</h3>
+<p><strong>CITE</strong> is a web application created to integrate with the Crucible Framework and allows multiple participants from different organizations to evaluate, score, and comment on cyber incidents. CITE compares a user's score to their organization's score, group average scores, and the official exercise score. Scores are submitted for each move as the exercise progresses and each of the historical scores can be recalled for reference at any time.</p>
+<p>In the CITE User Interface, there are two major functional sections:</p>
+<ul>
+<li>CITE Dashboard: The dashboard shows exercise details like the date and time, incident summary, a suggested list of actions for participants to consider taking, and suggested participant roles.</li>
+<li>CITE Scoresheet: The scoresheet compares participant scores to organization scores, group average scores, and the official score.</li>
+</ul>
+<p>For installation, refer to these GitHub repositories.</p>
+<ul>
+<li>
+<p><a href="https://github.com/cmu-sei/CITE.Ui">CITE UI Repository</a></p>
+</li>
+<li>
+<p><a href="https://github.com/cmu-sei/CITE.Api">CITE API Repository</a></p>
+</li>
+</ul>
+<h3 id="cite-permissions">CITE Permissions</h3>
+<p>In order to use CITE, a user must be assigned a scoring permission. </p>
+<p>There are three levels of permissions in CITE that affect the way a team score is collaborated on and edited. </p>
+<ul>
+<li>Basic: Can only view the team score.</li>
+<li>Modify: Can view and edit the team score.</li>
+<li>Submit: Can view, edit, and submit the team score.</li>
+</ul>
+<p>Most users will have the modify-level permission; however, one or two users per team have submit-level permission, meaning that only one or two users per team can edit and/or submit on the team score.</p>
+<p>However, participants who can submit scores on behalf of their team can also add suggested actions and participant roles to the CITE Dashboard. </p>
+<p>Refer to this section for more information. [Actions to Consider and Roles]</p>
+<h2 id="administrator-guide">Administrator Guide</h2>
+<h3 id="evaluations">Evaluations</h3>
+<p>The following image shows the Evaluations Administration Page. Here, administrators can add, edit, and delete evaluations.</p>
+<p><img alt="Evaluations Admin OE" src="../assets/img/EvaluationsAdmin.png" /></p>
+<p><strong>Add an Evaluation</strong> </p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add an Evaluation.</p>
+<p><img alt="Add Evaluation OE" src="../assets/img/AddEvaluation.png" /></p>
+<ol>
+<li>Under the Evaluation Administration View, click <strong>+</strong>. </li>
+<li>Add an <strong>Evaluation Description</strong> to keep track of what is going to happen in this exercise.</li>
+<li>Select the <strong>Scoring Model</strong> to be used during the exercise.</li>
+<li>To make the Evaluation available, select an <strong>Evaluation Status</strong> of <strong>Active</strong>.</li>
+<li>Add a <strong>Situation Date &amp; Time</strong> to set the time for the exercise.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, an Evaluation can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Evaluation.</p>
+<p>In the same way, an Evaluation can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Evaluation.</p>
+<p><strong>Configue an Evaluation</strong></p>
+<p>To configure an evaluation to be used for an exercise, administrators will need to add Moves and Teams to the evaluation. To do this, follow these steps.</p>
+<p><img alt="Configure Evaluation OE" src="../assets/img/ConfigureEvaluations.png" /></p>
+<p><em>Moves</em></p>
+<p><img alt="Moves OE" src="../assets/img/moves.png" /></p>
+<ol>
+<li>Click on the <strong>+</strong> on the Moves section.</li>
+<li>Add a <strong>Move Number</strong>.</li>
+<li>Add a <strong>Move Description</strong>, which will explain what will be happening when the move is executed.</li>
+<li>Add a <strong>Situation Description</strong> about the background information for the exercise.</li>
+<li>Add a <strong>Situation Date &amp; Time</strong> of when the exercise is going to occur.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Move can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Move.</p>
+<p>In the same way, a Move can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Move.</p>
+<p><em>Teams</em></p>
+<p><img alt="Teams OE" src="../assets/img/teams.png" /></p>
+<ol>
+<li>Click on the <strong>+</strong> on the Teams section.</li>
+<li>Add a <strong>Name</strong> for the team.</li>
+<li>Add a <strong>Short Name</strong> for the team, which could be the team's acronym.</li>
+<li>Select the <strong>Team Type</strong>, which contains the following options: Individual Organization, Other, and Official Score Contributor. </li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Team can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Team.</p>
+<p>In the same way, a Team can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Team.</p>
+<h3 id="scoring-models">Scoring Models</h3>
+<p>The following image shows the Scoring Models Administration Page. Here, administrators can add, edit, and delete scoring models.</p>
+<p><img alt="Scoring Models Admin OE" src="../assets/img/scoringModelsAdmin.png" /></p>
+<p><strong>Add a Scoring Model</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add a Scoring Model.</p>
+<p><img alt="Add Scoring Model OE" src="../assets/img/addScoringModel.png" /></p>
+<ol>
+<li>Under the Scoring Model Administration View, click <strong>+</strong>.</li>
+<li>Add a <strong>Scoring Model Description</strong> that will provide details for this model.</li>
+<li>Select a <strong>Scoring Model Status</strong>, if desired to be used right away, select <strong>Active</strong>.</li>
+<li>Add a <strong>Calculation Equation</strong> for the model.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Scoring Model can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Scoring Model.</p>
+<p>In the same way, a Scoring Model can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Scoring Model.</p>
+<p><strong>Configure a Scoring Model</strong></p>
+<p>To configure a scoring model to be used for an exercise, administrators will need to add Scoring Categories to the scoring model. To do this, follow these steps.</p>
+<p><img alt="Configure Scoring Model OE" src="../assets/img/configureScoringModel.png" /></p>
+<p><em>Scoring Categories</em></p>
+<p><img alt="Scoring Categories OE" src="../assets/img/scoringCategories.png" /></p>
+<ol>
+<li>Click on the <strong>+</strong> on the Scoring Categories section.</li>
+<li>Add a <strong>Scoring Category Description</strong> to describe this category's functionality.</li>
+<li>If necessary, provide a <strong>Display Order</strong> to organize the scoring categories.</li>
+<li>Provide the <strong>Calculation Equation</strong> to be used. </li>
+<li>Provide the <strong>Calculation Weight</strong>.</li>
+<li>If necessary, check the option <strong>Allow Multiple Selections</strong>.</li>
+<li>If necessary, check the option <strong>Modifier Selection Required</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Scoring Category can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Scoring Category.</p>
+<p>In the same way, a Scoring Category can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Scoring Category.</p>
+<h3 id="actions">Actions</h3>
+<p>The following image shows the Actions Administration Page. Here,administrators can add, edit, and delete actions.</p>
+<p>However, users who can submit scores on behalf of their team can also add suggested actions to the CITE dashboard. The use of actions will allow the team members to customize their response by tracking tasks during the exercise. These actions remain internal to the team and will not be visible to other participants.</p>
+<p><img alt="Actions Admin OE" src="../assets/img/actionsAdmin.png" /></p>
+<p><strong>Add an Action</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add an Action.</p>
+<p><img alt="Add Action OE" src="../assets/img/addAction.png" /></p>
+<ol>
+<li>Under the Actions Administration View, click <strong>+</strong>.</li>
+<li>Add an <strong>Action Description</strong> that will provide information for the action.</li>
+<li>Select the desired <strong>Team</strong> where the action will be added.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, an Action can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Action.</p>
+<p>In the same way, an Action can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Action.</p>
+<h3 id="roles">Roles</h3>
+<p>The following image shows the Roles Administration Page. Here, administrators can add, edit, and delete roles.</p>
+<p>However, users who can submit scores on behalf of their team can also add participant roles to the CITE dashboard. The use of roles will allow the team members to customize their response by tracking their responsibility during the exercise. These roles remain internal to the team and will not be visible to other participants.</p>
+<p><img alt="Roles Admin OE" src="../assets/img/rolesAdmin.png" /></p>
+<p><strong>Add a Role</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add a Role.</p>
+<p><img alt="Add Role OE" src="../assets/img/addRole.png" /></p>
+<ol>
+<li>Under the Roles Administration View, click <strong>+</strong>.</li>
+<li>Add an <strong>Role Name</strong> that will provide a description for the role..</li>
+<li>Select the desired <strong>Team</strong> where the role will be added.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Role can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Role.</p>
+<p>In the same way, a Role can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Role.</p>
+<h3 id="submissions">Submissions</h3>
+<p>The following image shows the Roles Administration Page. Here, administrators can keep track of all the score submissions provided by the different teams during an exercise. This will allow administrators to compare their scores with the official score, as well as keep track of which teams are on a good track and which are not.</p>
+<p>Additional functionalities include copying the entire score, as well as deleting a score submitted by a team.</p>
+<p><img alt="Submissiosn Admin OE" src="../assets/img/submissionsAdmin.png" /></p>
+<h3 id="users">Users</h3>
+<p>The following image shows the Users Administration Page. Here, administrators can add and delete users. Additionally, administrators will be able to assign the necessary permissions to each user. </p>
+<p>The available permissions are: </p>
+<ul>
+<li>System Admin: Permission that will grant a user all administration privileges on the CITE application.</li>
+<li>Content Developer: Will be provided the permission to manage other CITE Admin pages except the Users Admin page and their permissions.</li>
+<li>Can Submit: The user is allowed to submit a score for the different moves on an exercise.</li>
+<li>Can Modify: The user is allowed to modify a score for previous moves on an exercise.</li>
+<li>Can Increment Move: The user is given the permission to increment the current move during an exercise.</li>
+</ul>
+<p><img alt="Users Admin OE" src="../assets/img/usersAdmin.png" /></p>
+<p><strong>Add a User</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add a User.</p>
+<p><img alt="Add User OE" src="../assets/img/addUser.png" /></p>
+<ol>
+<li>Under the Users Administration View, click <strong>+</strong>.</li>
+<li>Add a <strong>User ID</strong> that will be unique for the user.</li>
+<li>Add a <strong>User Name</strong> that will identify the user to be added.</li>
+<li>Click <strong>Save</strong> represented by a user with a + sign.</li>
+<li>After adding the user to CITE, select the desired permissions to be assigned by clicking on the checkboxes next to the user.</li>
+</ol>
+<p>If necessary, a User can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired User.</p>
+<p>In the same way, a User can be edited by clicking on the <strong>Edit Icon</strong> next to the desired User.</p>
+<h2 id="user-guide">User Guide</h2>
+<h3 id="moves">Moves</h3>
+<p>In CITE, a Move is a defined period of time during an exercise, in which a series of injects are distributed for users to discuss and assess the current incident severity.</p>
+<p>When in Dashboard view, users will have two features to interact with moves:</p>
+<ul>
+<li>
+<p>Displayed Move: Move that will be currently dispalyed on the screen. Here, users can see responses to previous moves and scores, but users will not be able to edit a response.</p>
+</li>
+<li>
+<p>Current Move: Move that is currently active. There are cases where the Displayed Move and the Current Move might be the same. Here, users are allowed to edit the category of the move.</p>
+</li>
+</ul>
+<h3 id="cite-dashboard">CITE Dashboard</h3>
+<p>The CITE Dashboard shows exercise details like the date and time, incident summary, a suggested list of actions for participants to consider taking, and suggested participant roles.</p>
+<p>The following image will show some important hotspots about the CITE Dashboard. Reference the number on the hotspot to know more about this section.</p>
+<p><img alt="CITE Dashboard OE" src="../assets/img/CITE-Dashboard.png" /></p>
+<h4 id="active-incident-moves">Active Incident &amp; Moves</h4>
+<p><em>Hotspot 1:</em> </p>
+<p>The name of the active incident and the move number currently displayed.</p>
+<h4 id="situation-description-date-time">Situation Description, Date &amp; Time</h4>
+<p><em>Hotspot 2:</em></p>
+<p>The date and time of the situation displayed and a short description of the event.</p>
+<h4 id="actions-to-consider">Actions to Consider</h4>
+<p><em>Hotspot 3:</em></p>
+<p>Users can see the different actions necessary to be executed during the exercise. These action are for everyone on the team and "per move", meaning they change at each move of the exercise.</p>
+<p>These are added to guide users on an appropriate course of action during an exercise. However, these actions are not connected to the scoresheet.</p>
+<h4 id="roles_1">Roles</h4>
+<p><em>Hotspot 4:</em> </p>
+<p>The roles are added so that each team member will have a clear path of their responsibilities during the exercise. For this, roles can be customized for each team and then the team members are going to decide what role each user is assigned.</p>
+<h4 id="score-summary">Score Summary</h4>
+<p><em>Hotspot 5:</em></p>
+<p>Displays the various scores at the appropriate severity level for the disaplyed move. Here, scores are always visible.</p>
+<h4 id="dashboard-scoresheet-toggle">Dashboard &amp; Scoresheet Toggle</h4>
+<p><em>Hotspot 6:</em></p>
+<p>By using this icon, users can toggle between the CITE Dashboard and the CITE Scoresheet.</p>
+<h3 id="cite-scoresheet">CITE Scoresheet</h3>
+<p>The CITE Scoresheet compares participant scores to organization scores, group average scores, and the oficial score.</p>
+<p>The following image will show some important hotspots about the CITE Scoresheet. Reference the number on the hotspot to know more about this section.</p>
+<p><img alt="CITE Scoresheet OE" src="../assets/img/CITE-Scoresheet.png" /></p>
+<h4 id="event-name">Event Name</h4>
+<p><em>Hotspot 1:</em></p>
+<p>The Event Name is the name of the current event.</p>
+<h4 id="displayed-move">Displayed Move</h4>
+<p><em>Hotspot 2:</em></p>
+<p>The move currently displayed on the screen. Clicking &lt; displays previous moves. Clicking &gt; displays the current move. Using Displayed Moves, users can see responses to previous moves and scores but the user cannot edit a previous response.</p>
+<h4 id="scoring-features">Scoring Features</h4>
+<p><em>Hotspot 3:</em></p>
+<ul>
+<li>
+<p>User: This is the participant's personal score for their reference only. The user score will also appear under the Score Summary range. </p>
+</li>
+<li>
+<p>Team: Toggling the Team icon, displays how the team has scored this move so far. This is the score that the team collaborates on and submits for the current move. This score will be compared to the official score. The Team score appears under the Score Summary range.</p>
+</li>
+<li>
+<p>Team Avg: The average of all the users on the team. The Team Avg appears under the Score Summary Range for all moves except the current move.</p>
+</li>
+<li>
+<p>Group Avg: The average of all of the teams in the user's group. Group Avg appears under the Score Summary Range for all moves except for the current move.</p>
+</li>
+<li>
+<p>Official: The potential score; that is, how the incident should have been scored had it been a real-life scenario. Official score appears under the Score Summary Range for all moves except the current move.</p>
+</li>
+<li>
+<p>Submit: Submits the score indicating that the user is done scoring the current move. Click Yes or No. If the user clicks Yes, but changes their mind, click Reopen to edit the scoring.</p>
+</li>
+<li>
+<p>Clear: Clears any selections the user has checked but does not clear comments enterred. Selecting Clear returns to a score of 0.00.</p>
+</li>
+<li>
+<p>Preset: Sets the user's selections to the previous move score to use as a starting point for the current move.</p>
+</li>
+</ul>
+<h4 id="score-summary_1">Score Summary</h4>
+<p><em>Hotspot 4:</em></p>
+<p>Displays the various scores at the appropriate severity level for the displayed move so that the scores are always visible.</p>
+<h4 id="categories-and-options">Categories and Options</h4>
+<p><em>Hotspot 5:</em></p>
+<p>Categories that are individually scored based upon the current move situation. For each category, select as many options as relevant. Selecting options assigns points to each category which are compiled to create the move score as defined by the scoring model.</p>
+<p><strong>Add, Edit, and Delete a Comment</strong>
+When scoring a move, the user can attach a comment (or multiple comments) to a category.</p>
+<ul>
+<li>To add a comment, click <img alt="Comment OE" src="../assets/img/comment.png" />. Enter the comment and click Save.</li>
+<li>To edit an existing comment, click <img alt="Edit OE" src="../assets/img/edit.png" />. Make any changes, then click Save.</li>
+<li>To delete an existing comment, click <img alt="Trash OE" src="../assets/img/trash.png" />. Click Yes to delete the comment.</li>
+</ul>
+<p>When finished scoring the categories and adding comments, click Submit to submit the scores.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "toc.integrate"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>

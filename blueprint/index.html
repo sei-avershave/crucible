@@ -1,0 +1,1069 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../alloy/">
+      
+      
+        <link rel="next" href="../cite/">
+      
+      <link rel="icon" href="../assets/img/crucible-icon-c-alpha.svg">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>Blueprint - Crucible Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Crucible Documentation - Blueprint" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="Noneassets/images/illustrations/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+  <!-- google-site-verification meta-tag -->
+  <meta name="google-site-verification" content="-Rj8YMCn9uu5IwOFdC-WfAzXp4ZOMJtYKxU40ZgcJIU" />
+
+<!-- Extra stylesheets -->
+<!--  <link
+    rel="stylesheet"
+    href="../assets/stylesheets/overrides.css"
+  />-->
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#blueprint" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Crucible Documentation" class="md-header__button md-logo" aria-label="Crucible Documentation" data-md-component="logo">
+      
+  <img src="../assets/img/crucible-icon-c-alpha.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Crucible Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blueprint
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../player/" class="md-tabs__link">
+      Player
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../caster/" class="md-tabs__link">
+      Caster
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../steamfitter/" class="md-tabs__link">
+      Steamfitter
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../alloy/" class="md-tabs__link">
+      Alloy
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Blueprint
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../cite/" class="md-tabs__link">
+      CITE
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../gallery/" class="md-tabs__link">
+      Gallery
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Crucible Documentation" class="md-nav__button md-logo" aria-label="Crucible Documentation" data-md-component="logo">
+      
+  <img src="../assets/img/crucible-icon-c-alpha.svg" alt="logo">
+
+    </a>
+    Crucible Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../player/" class="md-nav__link">
+        Player
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caster/" class="md-nav__link">
+        Caster
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../steamfitter/" class="md-nav__link">
+        Steamfitter
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alloy/" class="md-nav__link">
+        Alloy
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Blueprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Blueprint
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-blueprint" class="md-nav__link">
+    What is Blueprint?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blueprint-permissions" class="md-nav__link">
+    Blueprint Permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administrator-guide" class="md-nav__link">
+    Administrator Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="Administrator Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teams" class="md-nav__link">
+    Teams
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-guide" class="md-nav__link">
+    User Guide
+  </a>
+  
+    <nav class="md-nav" aria-label="User Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blueprint-dashboard" class="md-nav__link">
+    Blueprint Dashboard
+  </a>
+  
+    <nav class="md-nav" aria-label="Blueprint Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-blank-msel" class="md-nav__link">
+    Create a Blank MSEL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-an-existing-msel" class="md-nav__link">
+    Upload an Existing MSEL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msel-cards" class="md-nav__link">
+    MSEL Cards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload" class="md-nav__link">
+    Upload
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete" class="md-nav__link">
+    Delete
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy" class="md-nav__link">
+    Copy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msel-editing-functionalities" class="md-nav__link">
+    MSEL Editing Functionalities
+  </a>
+  
+    <nav class="md-nav" aria-label="MSEL Editing Functionalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-information-tab" class="md-nav__link">
+    Basic Information Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roles-tab" class="md-nav__link">
+    Roles Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-fields-tab" class="md-nav__link">
+    Data Fields Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizations-tab" class="md-nav__link">
+    Organizations Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moves-tab" class="md-nav__link">
+    Moves Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#injects-tab" class="md-nav__link">
+    Injects Tab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-view" class="md-nav__link">
+    Exercise View
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cite/" class="md-nav__link">
+        CITE
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gallery/" class="md-nav__link">
+        Gallery
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="blueprint"><strong>Blueprint</strong></h1>
+<p><em>MSEL Builder Application</em></p>
+<h2 id="overview">Overview</h2>
+<h3 id="what-is-blueprint">What is Blueprint?</h3>
+<p><strong>Blueprint</strong> is a web application created to make the build-out process of Master Scenario Event List (MSELs) and injects easier to perform. This application simplifies the creation and visualization of the MSEL, allowing the user to select/define the simulated entities, attacks, timeframe, and regulators impacted by the scenario. This approach has many advantages over the traditional method of using an excel spreadsheet and facilitates the collaboration between exercise designers belonging to multiple teams.</p>
+<p>Additionally, Blueprint can be integrated with Player, Gallery, CITE and Steamfitter. Integrating Blueprint with these applications will automate the configuration process for an exercise.</p>
+<p>In summary, Blueprint will allow users to view, edit, create, and approve events on the MSEL.</p>
+<p>For installation, refer to these GitHub repositories.</p>
+<ul>
+<li><a href="https://github.com/cmu-sei/Blueprint.Ui">Blueprint UI Repository</a></li>
+<li><a href="https://github.com/cmu-sei/Blueprint.Api">Blueprint API Repository</a></li>
+</ul>
+<h3 id="blueprint-permissions">Blueprint Permissions</h3>
+<p>In order to use Blueprint, a user must be assigned a Content Developer permissions and be added to their respective team.</p>
+<p>There are two levels of permissions in Blueprint that affect the way a user interacts with the Blueprint application and collaborates on the MSEL creation. </p>
+<ul>
+<li>System Admin: Can add users to a team, as well as assigned the required permissions to the users. Additionally, users with this permission can view, edit, create, and approve events on the MSEL.</li>
+<li>Content Developer: Can view, edit, create, and approve events on the MSEL.</li>
+</ul>
+<p>Most users will have the Content Developer permission, since that is all that is required to be able to create and collaborate with other teams on the MSEL creation. </p>
+<p>Refer to this section for more information on additional administrative actions. [Administrator Guide]</p>
+<h2 id="administrator-guide">Administrator Guide</h2>
+<h3 id="teams">Teams</h3>
+<p>The following image shows the Teams Administration Page. Here, administrators can add, edit, and delete teams. To be able to use the Blueprint application, administrator should assign a team to desired users. </p>
+<p><img alt="Blueprint Teams Admin OE" src="../assets/img/blueprintTeams.png" /></p>
+<p><strong>Add a Team</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add a Team.</p>
+<p><img alt="Blueprint Add Team OE" src="../assets/img/blueprintAddTeam.png" /></p>
+<ol>
+<li>Under the Teams Administration View, click <strong>+</strong>.</li>
+<li>Add a <strong>Name</strong> for the team.</li>
+<li>Add a <strong>Short Name</strong> for the team, which could be the team's acronym.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>If necessary, a Team can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired Team.</p>
+<p>In the same way, a Team can be edited by clicking on the <strong>Edit Icon</strong> next to the desired Team.</p>
+<p><strong>Add/Remove Users From a Team</strong></p>
+<p>To configure a team for an exercise, administrators will need to add users to their respective teams. To do this, follow these steps. </p>
+<p><img alt="Configure Blueprint Teams OE" src="../assets/img/blueprintConfigureTeams.png" /></p>
+<ol>
+<li>Select the team to be configured and click on it to expand its configuration details.</li>
+<li>Under the <strong>All Users</strong> tab, users that have not been assigned to the team will be shown. To add them to the team, click on <strong>Add User</strong>.</li>
+<li>Under the <strong>Team Users</strong> tab, users that have already been assigned to the team will be shown. To remove a user from the team, click on <strong>Remove</strong>.</li>
+</ol>
+<h3 id="users">Users</h3>
+<p>The following image shows the Users Administration Page. Here, administrators can add and delete users. Additionally, administrators will be able to assign the necessary permissions to each user. </p>
+<p>The available permissions are:</p>
+<ul>
+<li>System Admin: Permission that will grant a user all administration privileges on the Blueprint application.</li>
+<li>Content Developer: Can view, edit, create, and approve events on the MSEL.</li>
+</ul>
+<p><img alt="Blueprint Users Admin OE" src="../assets/img/blueprintUsersAdmin.png" /></p>
+<p><strong>Add a User</strong></p>
+<p>Assuming that the user has been granted the appropriate permissions by the exercise administrator, follow these steps to add a User.</p>
+<p><img alt="Blueprint Add User OE" src="../assets/img/blueprintAddUser.png" /></p>
+<ol>
+<li>Under the Users Administration View, click <strong>+</strong>.</li>
+<li>Add a <strong>User ID</strong> that will be unique for the user.</li>
+<li>Add a <strong>User Name</strong> that will identify the user to be added.</li>
+<li>Click <strong>Save</strong> represented by a user with a + sign.</li>
+<li>After adding the user to Blueprint, select the desired permissions to be assigned by clicking on the checkboxes next to the user.</li>
+</ol>
+<p>If necessary, a User can be deleted by clicking on the <strong>Trash Icon</strong> next to the desired User.</p>
+<p>In the same way, a User can be edited by clicking on the <strong>Edit Icon</strong> next to the desired User.</p>
+<h2 id="user-guide">User Guide</h2>
+<h3 id="blueprint-dashboard">Blueprint Dashboard</h3>
+<p>The Blueprint Dashboard shows created MSELS. Here, users are able to select the desired MSEL to work on, as well create or delete them.</p>
+<p>The following image will show some important hotspots about the Blueprint Dashboard. Reference the number on the hotspot to know more about this section.</p>
+<p><img alt="Blueprint Dashboard OE" src="../assets/img/blueprint-dashboard.png" /></p>
+<h4 id="create-a-blank-msel">Create a Blank MSEL</h4>
+<p><em>Hotspot 1:</em></p>
+<p>One of the main features of Blueprint is the ability to be able to create a MSEL from scratch using the application. This feature is helpful for users since it will eliminate the hassle of using Excel spreadsheets and have a more user-friendly application that will help users visualize their information easier.</p>
+<h4 id="upload-an-existing-msel">Upload an Existing MSEL</h4>
+<p><em>Hotspot 2:</em></p>
+<p>If creating a new MSEL from scratch is not desired, users can upload an already created MSEL and continue editing it on the application by using this functionality. Useful to share existing MSEL work without having to add the pieces of information to a blank MSEL one by one.</p>
+<h4 id="msel-cards">MSEL Cards</h4>
+<p><em>Hotspot 3:</em></p>
+<p>Click on the desire MSEL Card to access its information. Here, users can also edit or update the existing information. Changes made will be seen live by other users without the need of sharing a new document every time.</p>
+<h4 id="download">Download</h4>
+<p><em>Hotspot 4:</em></p>
+<p>If users desire to have an offline copy of any desired MSEL, users will have the ability to download a copy to their devices by using the Download feature. If by any chance, users don’t have an internet connection, this feature will be useful since users will be able to work offline on the MSEL and then upload the MSEL back to the application, so that other users can see any changes made. Although users can work on the MSEL offline, it is not recommended since they will be missing of all of the helpful features that Blueprint offers.</p>
+<h4 id="upload">Upload</h4>
+<p><em>Hotspot 5:</em></p>
+<p>With the Upload feature, users can update the information from the MSEL Card with the new uploaded information. This feature will modify all the existing information with the one found on the .xlsx file.</p>
+<h4 id="delete">Delete</h4>
+<p><em>Hotspot 6:</em></p>
+<p>With the Delete feature, users will be able to delete existing MSEL Cards. By deleting the MSEL Card, all the information that was included in the MSEL will be deleted too.</p>
+<h4 id="copy">Copy</h4>
+<p><em>Hotspot 7:</em></p>
+<p>With the Copy feature, users will be able to create a copy of an existing MSEL Card. With this feature, users will be able to modify the copy, instead of the original. Useful if the user isn't sure of any new changes or to have a foothold of the information that is needed, instead of creating a new MSEL from scratch.</p>
+<h4 id="search">Search</h4>
+<p><em>Hotspot 8:</em></p>
+<p>This functionality will enable users to search for an specific MSEL, in case it is not presented at the top on the dashboard.</p>
+<h3 id="msel-editing-functionalities">MSEL Editing Functionalities</h3>
+<p>After uploading or creating a MSEL, users will be given the ability to edit any desired information, as well as add additional information to the MSEL. </p>
+<p>With this functionality, users can now edit the same MSEL, instead of each user having their own copy and then sending their edits to the user responsible of recompiling all the edits together. By allowing users to access the MSEL on-the-fly, this will ensure that everyone will have the same copy of the MSEL on the day of the live scenario.</p>
+<h4 id="basic-information-tab">Basic Information Tab</h4>
+<p>On this tab, users will be able to edit basic information and configuration about the MSEL.</p>
+<p><img alt="Blueprint Info Tab OE" src="../assets/img/blueprintBasicInfo.png" /></p>
+<p>To edit the MSEL's basic information and configuration, follow these next steps:</p>
+<ol>
+<li>Navigate to the <strong>Info</strong> tab.</li>
+<li>Click on the <strong>Edit</strong> button.</li>
+<li>Provide a <strong>Name</strong> for the MSEL.</li>
+<li>Provide a <strong>Description</strong> about the MSEL.</li>
+<li>If desired to convert into a template, check the <strong>Is a Template</strong> box.</li>
+<li>If desired to be integrated with Player, add the link for the <strong>Link Player View</strong>.</li>
+<li>If desired to be integrated with Gallery, check the <strong>Integrate Gallery</strong> box.</li>
+<li>If desired to be integrated with CITE, check the <strong>Integrate CITE</strong> box.</li>
+<li>If desired to be integrated with Steamfitter, check the <strong>Integrate Steamfitter</strong> box.</li>
+<li>To change the MSEL's status to approved, select <strong>Aprove</strong> within the available options.</li>
+<li>To add an exercise view, add the link to the <strong>Exercise View URL</strong> field.</li>
+</ol>
+<p>Integrations:</p>
+<ul>
+<li>Gallery: Blueprint will add the collections, exhibits, cards, articles, teams, and users specified on the MSEL.</li>
+<li>CITE: Blueprint will add the evaluation, moves, actions, roles, teams, and users specified on the MSEL.</li>
+<li>Player &amp; Steamfitter: Blueprint will automate the adding of injects specified on the MSEL.</li>
+</ul>
+<h4 id="roles-tab">Roles Tab</h4>
+<p>On this tab, users will be able to add and assign teams to the MSEL. Assigned teams will be able to view and edit the MSEL.</p>
+<p><img alt="Blueprint Roles Tab OE" src="../assets/img/blueprintRoles.png" /></p>
+<p><em>Add a Team</em></p>
+<p>To add a team to the MSEL's Roles, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Roles</strong> tab.</li>
+<li>Click on the <strong>Add a Team</strong> section and then select the desired team to be added.</li>
+<li>After selecting the team, click on the <strong>+</strong> button.</li>
+</ol>
+<p><em>Delete a Team</em></p>
+<p>To delete a team from the MSEL's Roles, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Roles</strong> tab.</li>
+<li>Select the desired team to be removed and click on the <strong>-</strong> button.</li>
+</ol>
+<p>Now the team has been added to the MSEL's Roles and members will be able to view and edit the MSEL based on the role assigned to the team. The available roles are:</p>
+<ul>
+<li>Editor: Can view and edit the MSEL.</li>
+<li>Approver: Can view and edit the MSEL, but will have the added feature of approving a MSEL.</li>
+<li>Owner: Owner of the MSEL, can view and edit the MSEL.</li>
+</ul>
+<h4 id="data-fields-tab">Data Fields Tab</h4>
+<p>On this tab, users will be able to add data fields that are going to be used on the MSEL. These data fields can be compared to the column fields used on Excel spreadsheets.</p>
+<p><img alt="Blueprint Data Fields Tab OE" src="../assets/img/blueprintDataFields.png" /></p>
+<p><em>Add a Data Field</em></p>
+<p>To add a Data Field to the MSEL, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Data Fields</strong> tab.</li>
+<li>Click on the <strong>+</strong> icon from the top left of the screen.</li>
+<li>Add a <strong>Display Order</strong> to indicate where to place the data field.</li>
+<li>Add a <strong>Name</strong> for the data field.</li>
+<li>If necessary, check the <strong>Selected From a List?</strong> box.</li>
+<li>If desired to be hidden, check the <strong>Hidden under "More Fields" section</strong> box.</li>
+<li>If wanted to be restricted for some users, select the <strong>ONLY Display for Content Developers and Owners</strong> box.</li>
+<li>If desired, select the <strong>Display in header of Injects</strong> box.</li>
+<li>If desired, select the <strong>Display in header of Exercise View</strong> box.</li>
+<li>If integrated with Gallery, add the <strong>Gallery Article Parameter</strong>.</li>
+<li>If desired to be a specific size, add the <strong>Column Metadata (Width)</strong>.</li>
+<li>If desired to be a specific color, add the <strong>Column Metadata (Color)</strong>.</li>
+</ol>
+<p><em>Delete a Data Field</em></p>
+<p>To delete a Data Field from the MSEL, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Data Fields</strong> tab.</li>
+<li>Select the desired data field to be deleted and click on the <strong>Trash Can</strong> icon.</li>
+</ol>
+<p><em>Edit a Data Field</em></p>
+<p>To edit an existing Data Field, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Data Fields</strong> tab.</li>
+<li>Select the data field to be edited and click on the <strong>Edit</strong> button to make any changes to the existing configurations.</li>
+<li>After making all the necessary changes, click on the <strong>checkmark</strong> to save them.</li>
+</ol>
+<p><em>Search For a Data Field</em></p>
+<p>To search for a specific Data Field, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Data Fields</strong> tab.</li>
+<li>Click on the <strong>Search Bar</strong> and add the name of the data field desired.</li>
+</ol>
+<h4 id="organizations-tab">Organizations Tab</h4>
+<p>On this tab, users will be able to add all the related organizations that are going to be used on the MSEL, as well as on the live exercise. Here, Organization Cards with their information are added. Additionally, users can create Organization Cards from scratch or from a template.</p>
+<p><img alt="Blueprint Organizations Tab OE" src="../assets/img/blueprintOrganizations.png" /></p>
+<p><em>Add an Organization Card From Scratch</em></p>
+<p><img alt="Blueprint Add Organization OE" src="../assets/img/blueprintAddOrganization.png" /></p>
+<p>To add an Organization Card from scratch, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Organizations</strong> tab.</li>
+<li>Click on <strong>Add Organization</strong>.</li>
+<li>Then, you will get a pop up to add the organization's details.</li>
+<li>Add a <strong>Name</strong> for the organization.</li>
+<li>Add a <strong>Short Name</strong> for the organization, such as an acronym. </li>
+<li>Add a <strong>Summary</strong> describing the organization.</li>
+<li>Add an <strong>Email</strong> from the organization.</li>
+<li>If desired, a <strong>Description</strong> can be added.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p><em>Add an Organization Card From Template</em></p>
+<p>To view existing Organization Card Templates and create an organization from a template, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Organizations</strong> tab.</li>
+<li>Check the <strong>Show Templates</strong> box.</li>
+<li>Select the desired template and click on the <strong>+</strong> icon from the card. </li>
+<li>Here, users will be able to edit all necessary information to create a new organization.</li>
+<li>After modifying the desired details, click <strong>Save</strong>.</li>
+</ol>
+<p><em>Edit an Organization</em></p>
+<p>To edit an existing organization, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Organizations</strong> tab.</li>
+<li>Select the desired card to be edited and click on the <strong>Edit</strong> button from the card.</li>
+<li>Here, users will be able to edit all necessary information.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p><em>Delete an Organization</em></p>
+<p>To delete an Organization Card, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Organizations</strong> tab.</li>
+<li>Select the desired card to be deleted and click on the <strong>trash can</strong> icon from the card.</li>
+</ol>
+<p><em>Search for an Organization</em></p>
+<p>To search for a specific Organization Card, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Organizations</strong> tab.</li>
+<li>Click on the <strong>Search Bar</strong> and type the name of the desired organization.</li>
+</ol>
+<h4 id="moves-tab">Moves Tab</h4>
+<p>On this tab, users will be able to add all the related exercise Moves to the MSEL.</p>
+<p><img alt="Blueprint Moves Tab OE" src="../assets/img/blueprintMoves.png" /></p>
+<p><em>Add a Move</em></p>
+<p><img alt="Blueprint Add Moves OE" src="../assets/img/blueprintAddMove.png" /></p>
+<ol>
+<li>Navigate to the <strong>Moves</strong> tab.</li>
+<li>Click on the <strong>+</strong> icon.</li>
+<li>Add the <strong>Move Number</strong> to indicate its order.</li>
+<li>Add the <strong>Title</strong> for move.</li>
+<li>Indicate the <strong>Start Time</strong> of the move.</li>
+<li>Indicate the <strong>Stop Time</strong> of the move.</li>
+<li>Add the <strong>Move Description</strong> to describe the move.</li>
+<li>Indicate the <strong>Situation Date</strong> of the move.</li>
+<li>Add a <strong>Situation Description</strong> to describe the situation.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p><em>Edit a Move</em></p>
+<p>To edit the move's details, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Moves</strong> tab.</li>
+<li>Select the move you want to edit and click on the <strong>Edit</strong> button for the corresponding move.</li>
+<li>Here, users will be able to edit all the desired details.</li>
+<li>Click on the <strong>Checkmark</strong> to save the details.</li>
+</ol>
+<p><em>Delete a Move</em></p>
+<p>To delete a move from the MSEL, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Moves</strong> tab.</li>
+<li>Select the move you want to delete and click on the <strong>Trash Can</strong> button for the corresponding move.</li>
+</ol>
+<p><em>Search For a Move</em></p>
+<p>To search for a specific move, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Moves</strong> tab.</li>
+<li>Click on the <em>Search Bar</em> and type the name of the desired move.</li>
+</ol>
+<h4 id="injects-tab">Injects Tab</h4>
+<p>On this tab, users will be able to add all the related injects to the MSEL.</p>
+<p><img alt="Blueprint Injects Tab OE" src="../assets/img/blueprintInjects.png" /></p>
+<p><em>Add a New Inject</em></p>
+<p><img alt="Blueprint Add Injects OE" src="../assets/img/blueprintAddInjects.png" /></p>
+<p>To add a new inject, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Injects</strong> tab.</li>
+<li>Click on the <strong>+</strong> icon found on the top left.</li>
+<li>Add an <strong>Order</strong> to indicate the position of the inject.</li>
+<li>Add a <strong>Group</strong>.</li>
+<li>Indicate the <strong>Move</strong> for the inject.</li>
+<li>Select the <strong>Assigned To</strong> from the given options.</li>
+<li>Add the <strong>Status</strong> for the inject.</li>
+<li>Indicate the <strong>Exercise Time</strong>.</li>
+<li>Indicate the <strong>Simulated Time</strong>.</li>
+<li>Add a <strong>Title</strong> for the inject.</li>
+<li>Add the <strong>Description</strong> for the inject.</li>
+<li>Select the <strong>To</strong> from the given options.</li>
+<li>Select the <strong>From</strong> from the given options.</li>
+<li>If necessary, add any additional <strong>Details</strong>.</li>
+<li>If desired, add the <strong>Expected Actions</strong> from this inject.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p><em>Add Color to an Inject</em></p>
+<p>To add a color to an existing inject, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Injects</strong> tab.</li>
+<li>Select the desired inject to be edited and click on the <strong>Bucket</strong> icon.</li>
+<li>Here, users will be able to select the desired color.</li>
+</ol>
+<p><em>Create an Inject From a Template</em></p>
+<p>To create an inject from an existing template, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Injects</strong> tab.</li>
+<li>Select the desired inject and click on the <strong>Copy</strong> button from the desired inject.</li>
+<li>Here, users will be able to edit the necessary fields for the new inject.</li>
+<li>Click on the <strong>Checkmark</strong> to save changes.</li>
+</ol>
+<p><em>Delete an Inject</em></p>
+<p>To delete an inject, follow these steps:</p>
+<ol>
+<li>Navigate to the <strong>Injects</strong> tab.</li>
+<li>Select the desired inject to be deleted and click on the <strong>Trash Can</strong> icon from the inject.</li>
+</ol>
+<h4 id="exercise-view">Exercise View</h4>
+<p>After making all the necessary edits, the "Exercise View" tab will recompile all the information added during the edits and display it to the users in an organized view. Here, users will be able to see all the information from the MSEL and be able to locate if anything is wrong or missing.</p>
+<p>With this organized view, users will be able to understand the important key factors of the MSEL, as well as provide an on-the-fly view, which users will be able to access and see any edits done to the MSEL.</p>
+<p><img alt="Blueprint Exercise View OE" src="../assets/img/blueprintExerciseView.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "toc.integrate"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
